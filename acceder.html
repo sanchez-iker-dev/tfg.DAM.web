@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="estilos/intro.css">
-   
+   <link rel="stylesheet" href="estilos/estilosAcceder.css">
    
     <title>Nimble</title>
 </head>
@@ -48,14 +48,9 @@
         <div class="main">
             <div class="detail">
               
-                <table>
+         
                     <form action="#" method="get" id="formulario">
-                        <table>
-                            <tr>
-                             
-                                
-                            </tr>
-                        </table>
+                       
                         <fieldset id="formularioDatos">
                             <legend> Registrarse </legend>
                             <table  id="tabla" >
@@ -64,18 +59,16 @@
                                         <label for="nombre">Nombre:   </label> 
                                     </td>
                                     <td></td>
-                                    <td>
+                                    <td class="campoRellenar">
                                         <input type="text" id="nombre" required autofocus >
-                                    </td>
-
-                                   
+                                    </td>                                
                                 </tr>
                                 <tr>
                                     <td>
                                         <label for="email" >Email: </label> 
                                     </td>
                                     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                                    <td>
+                                    <td class="campoRellenar">
                                         <input type="email" id="mail" required>
                                     </td>
                                 </tr>
@@ -84,28 +77,53 @@
                                         <label for="contrasena">Contraseña:   </label> 
                                     </td>
                                     <td></td>
-                                    <td>
+                                    <td class="campoRellenar">
                                         <input type="password" id="contrasena" required >
                                     </td>
-
-                                   
                                 </tr>
                                 <tr>
-                                    
                                     <td colspan="3">  <input type="submit" name="registro" id="registro" value="Acceder" title="Si ya estás registrado solo rellene el campo email y contraseña"  ></td>
-                                    <td>
-                                        
-                                    </td>
-                                    <td>
-                                      
-                                    </td>
                                 </tr>
-                              
-                                
                             </table>
+
+                            
                         </fieldset>
                     </form>
-                </table>
+
+                    <form action="#" method="get" id="formularioMovil">
+                       
+                        <fieldset id="formularioDatos">
+                            <legend> Registrarse </legend>
+                            
+                            <table  id="tablaMovil" >
+                                <tr>
+                                    <td>
+                                        <label for="nombreMovil">Nombre:   </label> <br><br>
+                            
+                                        <input type="text" name="nombreMovil" id="nombreMovil" required  >
+                                    </td>                              
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="emailMovil" >Email: </label> <br><br>
+                                        <input type="email" name="mailMovil" id="mailMovil" required>
+                                    </td>                                   
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="contrasenaMovil">Contraseña:   </label> <br><br>
+                                        <input type="password" name="contrasenaMovil" id="contrasenaMovil" required >
+                                    </td>                                
+                                </tr>
+                            
+                                <tr>
+                                    <td>  <input type="submit" name="registro" id="registroMovil" value="Acceder" title="Si ya estás registrado solo rellene el campo email y contraseña"  ></td>
+                                </tr>
+                                
+                            </table>
+                            
+                        </fieldset>
+                    </form>
             </div>
            
         </div>
@@ -116,3 +134,5 @@
 </body>
 
 </html>
+
+
