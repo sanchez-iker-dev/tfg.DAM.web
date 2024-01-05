@@ -1,0 +1,92 @@
+#tabla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+legend{
+    padding: 1%;
+}
+
+.dark-mode input{
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    color: white;
+    background: transparent; 
+    width:250px;
+    border-radius: 2.5%;
+    background: transparent; 
+   
+    padding-top: 5%;
+    padding-bottom: 5%;
+   
+    text-align: center;
+}
+ #registro{
+    width: 100%;
+    border: 0; 
+    padding: 5%;
+    background-color: #f9532d;
+    border-radius: 7%;
+    font-family: 'Outfit', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    color: white;
+    font-size: large;
+    
+}
+#registro:hover{
+    background-color: #b43b1f;
+    transition: 1.2s;
+    
+}
+#formularioDatos{
+    padding:1%;
+    width: 100%;
+}
+td{
+    padding: 10%;
+}
+
+input{
+    width:250px;
+    border-radius: 2.5%;
+    background: transparent; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+#formularioMovil{
+    display: none;
+}
+#registroMovil{
+    width: 100%;
+    border: 0; 
+    padding: 5%;
+    background-color: #f9532d;
+    border-radius: 7%;
+    font-family: 'Outfit', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    color: white;
+    font-size: large;
+    
+}
+#registroMovil:hover{
+    background-color: #b43b1f;
+    transition: 1.2s;
+    
+}
+@media  (max-width: 767px) {
+    /* Tus estilos para dispositivos móviles van aquí */
+    #formulario{
+        display: none;
+    }
+    #formularioMovil{
+        display: flex;
+    }
+    #registro{
+        width: 250px;
+    }
+   
+    /* Otros estilos específicos para dispositivos móviles */
+  }
