@@ -259,56 +259,11 @@ li a:hover  {
   
 }
 
-#formularioDatos{
-    padding:1%;
-    width: 100%;
-}
-td{
-    padding: 10%;
-}
-
-
-
-input{
-    width:250px;
-    border-radius: 2.5%;
-    background: transparent; 
-   
-    padding-top: 5%;
-    padding-bottom: 5%;
-   
-    text-align: center;
- 
-}
-
-.dark-mode input{
-    border-top: 1px solid white;
-    border-left: 1px solid white;
-    border-bottom: 1px solid white;
-    border-right: 1px solid white;
-    color: white;
-    background: transparent; 
-    width:250px;
-    border-radius: 2.5%;
-    background: transparent; 
-   
-    padding-top: 5%;
-    padding-bottom: 5%;
-   
-    text-align: center;
-}
- #registro{
-    width: 100%;
-    border: 0; 
-    padding: 5%;
-    background-color: #f9532d;
-    border-radius: 7%;
-    font-family: 'Outfit', sans-serif;
+#descargar:hover{
+    background-color: #244D61;
     transition: background-color 0.3s, color 0.3s;
-    color: white;
-    font-size: large;
-    
 }
+
 #descargar{
     width: 100%;
     border: 0; 
@@ -321,17 +276,9 @@ input{
     font-size: large;
 }
 
-#descargar:hover{
+.dark-mode #descargar:hover{
     background-color: #dfe0e8;
    color: black;
     transition: background-color 0.7s;
 }
 
-#tabla{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-legend{
-    padding: 1%;
-}
